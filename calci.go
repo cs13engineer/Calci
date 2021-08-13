@@ -6,7 +6,7 @@ func addInt(i int, j int)int{
 }
 
 //will add float32
-func addFloat(i Float32, j Float32)Float32{
+func addFloat(i float32, j float32)float32{
 	return(i+j)
 }
 
@@ -16,7 +16,7 @@ func subInt(i int, j int)int{
 }
 
 //will subtract float32
-func subFloat(i Float32, j Float32)Float32{
+func subFloat(i float32, j float32)float32{
 	return(i-j)
 }
 
@@ -26,7 +26,7 @@ func subMul(i int, j int)int{
 }
 
 //will multiply float32
-func subMul(i Float32, j Float32)Float32{
+func subMul(i float32, j float32)float32{
 	return(i*j)
 }
 
@@ -36,7 +36,7 @@ func subDiv(i int, j int)int{
 }
 
 //will divide the Float32 type
-func subDiv(i Float32, j Float32)Float32{
+func subDiv(i float32, j float32)float32{
 	return(i/j)
 }
 
